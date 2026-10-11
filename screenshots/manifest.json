@@ -1,0 +1,33 @@
+{
+  "description": "Public VILNXT screenshot gallery. The image files are intentionally not present until they are provided as uploadable binary files.",
+  "images": [
+    {
+      "file": "01.png",
+      "caption": "VILNXT screenshot 01"
+    },
+    {
+      "file": "02.png",
+      "caption": "VILNXT screenshot 02"
+    },
+    {
+      "file": "03.png",
+      "caption": "VILNXT screenshot 03"
+    },
+    {
+      "file": "04.png",
+      "caption": "VILNXT screenshot 04"
+    },
+    {
+      "file": "05.png",
+      "caption": "VILNXT screenshot 05"
+    },
+    {
+      "file": "06.png",
+      "caption": "VILNXT screenshot 06"
+    },
+    {
+      "file": "07.png",
+      "caption": "VILNXT screenshot 07"
+    }
+  ]
+}
