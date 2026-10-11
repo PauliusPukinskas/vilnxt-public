@@ -20,7 +20,7 @@ for (const button of buttons) {
    The image gallery is separate from the illustrative UI sample above. */
 (async function initScreenshots() {
   const gallery = document.querySelector("#screenshotGallery");
-  if (!gallery) return;
+  if (!gallery || gallery.children.length) return;
   try {
     const response = await fetch("./screenshots/manifest.json");
     if (!response.ok) return;
