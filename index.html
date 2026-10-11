@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="lt">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="VILNXT is a Vilnius startup community platform. This repository is a public project showcase only; the core application source code remains private.">
+  <meta name="theme-color" content="#090e1b">
+  <title>VILNXT | Hack4Vilnius 2026 Public Showcase</title>
+  <style>
+    :root { color-scheme:dark; font-family:Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    * { box-sizing:border-box; }
+    body { margin:0; background:radial-gradient(ellipse 90% 65% at 70% -12%, #1e3960 0%, transparent 65%),#090e1b; color:#f5f8ff; min-height:100vh; }
+    a { color:inherit; text-decoration:none; }
+    .wrap { max-width:1110px; padding:0 24px; margin:auto; }
+    header { height:90px; display:flex; justify-content:space-between; align-items:center; border-bottom:1px solid #ffffff13; gap:20px; }
+    .brand { font-size:1.3rem; font-weight:850; letter-spacing:-.06em; }
+    .brand span { color:#88e2d7; }
+    .tag { color:#afbbd1; font-size:.85rem; font-weight:550; }
+    .toplink { padding:12px 18px; border:1px solid #ffffff28; border-radius:12px; font-size:.88rem; font-weight:700; white-space:nowrap; }
+    main { padding:96px 0 76px; }
+    .eyebrow { color:#90e8d7; text-transform:uppercase; letter-spacing:.14em; font-weight:750; font-size:.78rem; margin:0 0 22px; }
+    h1 { max-width:800px; font-size:clamp(3.1rem,7vw,5.8rem); line-height:1.03; letter-spacing:-.065em; margin:0 0 26px; }
+    .lead { max-width:690px; color:#b5c3d6; font-size:1.2rem; line-height:1.65; margin:0; }
+    .cta { display:flex; gap:12px; margin:30px 0 58px; flex-wrap:wrap; }
+    .btn { padding:15px 22px; border-radius:14px; background:#83e3d5; color:#061a1b; font-weight:800; font-size:.94rem; transition:transform .2s; }
+    .btn:hover { transform:translateY(-2px); }
+    .btn.alt { background:#ffffff0b; border:1px solid #ffffff2c; color:white; }
+    .notice { position:relative; padding:28px 32px; border:1px solid #f4bf7088; border-radius:20px; background:linear-gradient(120deg,#422e1c66,#181c29a8); box-shadow:0 20px 100px #0002; }
+    .notice-label { color:#ffd39c; font-size:.75rem; font-weight:850; letter-spacing:.15em; text-transform:uppercase; }
+    .notice h2 { margin:12px 0; font-size:clamp(1.4rem,3vw,2.2rem); letter-spacing:-.035em; }
+    .notice p { margin:9px 0 0; max-width:930px; color:#e7ded3; line-height:1.65; }
+    .notice strong { color:white; }
+    .divider { height:1px; background:#ffffff30; margin:18px 0; }
+    .sectiontitle { margin:62px 0 22px; font-size:1.2rem; letter-spacing:-.025em; }
+    .cards { display:grid; grid-template-columns:repeat(3,1fr); gap:14px; }
+    .card { padding:26px; border:1px solid #ffffff17; border-radius:18px; background:#ffffff07; }
+    .card .num { color:#91e4d8; font-weight:750; font-size:.8rem; }
+    .card h3 { margin:17px 0 12px; font-size:1.16rem; }
+    .card p { color:#acbacd; margin:0; line-height:1.55; font-size:.95rem; }
+    footer { color:#96a5ba; font-size:.82rem; padding:28px 0 38px; border-top:1px solid #ffffff14; display:flex; justify-content:space-between; align-items:center; gap:12px; flex-wrap:wrap; }
+    footer a { color:#bdece4; text-decoration:underline; text-underline-offset:3px; }
+    @media(max-width:700px) { header{height:76px;} .tag{display:none;} main{padding:64px 0;} .cards{grid-template-columns:1fr;} .notice{padding:22px;} .lead{font-size:1.05rem;} }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="brand">VIL<span>NXT</span> <span class="tag">/ Hack4Vilnius 2026</span></div>
+      <a class="toplink" href="https://vilnxt.com/" target="_blank" rel="noopener noreferrer">Atidaryti VILNXT ↗</a>
+    </header>
+    <main>
+      <p class="eyebrow">Hack4Vilnius 2026 · Public project showcase</p>
+      <h1>Vienas miestas.<br>Visos galimybės.</h1>
+      <p class="lead">VILNXT sujungia Vilniaus startuolių ekosistemą. Atrask renginius, pažintis, bendruomenę ir galimybes vienoje vietoje.</p>
+      <div class="cta">
+        <a class="btn" href="https://vilnxt.com/" target="_blank" rel="noopener noreferrer">Peržiūrėti veikiantį produktą ↗</a>
+        <a class="btn alt" href="https://github.com/PauliusPukinskas/vilnxt-public#readme">Projekto dokumentacija ↗</a>
+      </div>
+      <section class="notice" aria-labelledby="notice-title">
+        <div class="notice-label">Svarbu vertinimo komisijai / Important for judges</div>
+        <h2 id="notice-title">Tai tik viešas pristatymas. Pagrindinis kodas yra privatus.</h2>
+        <p><strong>Ši saugykla NĖRA pilna VILNXT aplikacija.</strong> Joje pateikiamas tik projekto pristatymo puslapis. Didžioji dalis originalaus programinio kodo, serverio logika, vidinės integracijos ir kiti įgyvendinimo komponentai saugomi atskirai privačiai. Prašome vertinti <a href="https://vilnxt.com/" style="text-decoration:underline;text-underline-offset:3px;">veikiantį produktą</a>, o ne viešos saugyklos kodo kiekį.</p>
+        <div class="divider"></div>
+        <p lang="en"><strong>PUBLIC SHOWCASE ONLY — CORE SOURCE CODE IS PRIVATE.</strong> This repository is <strong>not</strong> the full application. It contains only a public-facing presentation page. Most source code and proprietary implementation details remain in a separate private repository. Judges should assess the live product at <a href="https://vilnxt.com/" style="text-decoration:underline;text-underline-offset:3px;">vilnxt.com</a>, not the size of this showcase repository.</p>
+      </section>
+      <h2 class="sectiontitle">Ką kuria VILNXT?</h2>
+      <section class="cards" aria-label="VILNXT feature areas">
+        <article class="card"><span class="num">01 / EVENTS</span><h3>Aktualūs renginiai</h3><p>Viena vieta susipažinti su Vilniaus verslo ir startuolių renginiais.</p></article>
+        <article class="card"><span class="num">02 / COMMUNITY</span><h3>Bendruomenė</h3><p>Erdvė atrasti žmones ir ryšius, kurie augina vietinę ekosistemą.</p></article>
+        <article class="card"><span class="num">03 / OPPORTUNITIES</span><h3>Galimybės</h3><p>Lengvesnis kelias į naudingas pažintis, verslo veiklas ir bendradarbiavimą.</p></article>
+      </section>
+    </main>
+    <footer>
+      <span>© 2026 VILNXT Team and respective rights holders. All rights reserved.</span>
+      <span>Proprietary showcase · <a href="https://github.com/PauliusPukinskas/vilnxt-public/blob/main/LICENSE">License & rights notice</a></span>
+    </footer>
+  </div>
+</body>
+</html>
