@@ -1,31 +1,27 @@
-# VILNXT screenshot gallery
+# VILNXT screenshots
 
-**PUBLIC SHOWCASE ONLY. THE APPLICATION SOURCE CODE REMAINS PRIVATE.**
+Original screenshots shared by the VILNXT team on 11 October 2026.
 
-The public presentation page has a ready-to-use gallery. Only publicly visible UI screenshots should be uploaded here.
+**PUBLIC SHOWCASE ONLY — CORE SOURCE CODE IS PRIVATE.**
 
-The original seven inline screenshot images supplied in ChatGPT were not available as file bytes to the repository editing connector. **No image has been fabricated or passed off as an actual application screenshot.**
+All seven screenshots are now visible in the [main README](../README.md).
 
-To populate the gallery, upload the seven original PNG files to this directory as:
+The [public showcase page](../index.html) displays six product views in a dedicated gallery and the analytics screenshot next to the 24-hour traffic figure.
 
-```text
-screenshots/
-  01.png
-  02.png
-  03.png
-  04.png
-  05.png
-  06.png
-  07.png
-  manifest.json
-```
+### Views shown
 
-The static page reads `manifest.json` and displays only the images that load successfully. It does not show broken images while these files are missing.
+1. Home page and event search
+2. Event calendar
+3. Event map
+4. Community page
+5. Profile page
+6. Pricing page
+7. Analytics: 686 visits during the displayed approximately 24-hour period
 
-You may change the filename or caption for each entry in `manifest.json`. Screenshot captions should describe only what is actually visible. Remove sensitive information (emails, tokens, personal details) before adding real screenshots.
+The files are served from image URLs listed in [manifest.json](manifest.json), hosted through the project's connected media CDN rather than committed as binary images to this GitHub repository.
 
-## Audience figures
+Visits are not necessarily unique visitors. The analytics source was supplied by the team.
 
-On 2026-10-11 the VILNXT team reported nearly 700 **visits** over 24 hours. This does not automatically mean 700 unique visitors. Source data is not independently verified. The current headline reflects the team's estimate and can be replaced by an exact analytics value once available.
+**© 2026 VILNXT Team and respective rights holders. All rights reserved.**
 
-[Live application](https://vilnxt.com/) · [Main showcase](../README.md)
+[Live site](https://vilnxt.com/) · [License](../LICENSE)
