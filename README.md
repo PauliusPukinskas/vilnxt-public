@@ -8,6 +8,21 @@
 > # TIK VIEŠAS PROJEKTO PRISTATYMAS — PAGRINDINIS KODAS PRIVATUS
 > **Tai NĖRA pilna VILNXT aplikacija ar jos programinis kodas.** Ši vieša saugykla skirta **Hack4Vilnius 2026 vertinimo komisijai** ir kitiems lankytojams susipažinti su projektu. **Didžioji dalis tikrojo programinio kodo saugoma atskiroje privačioje saugykloje ir čia nėra viešinama.**
 
+
+## Early traction (11 October 2026)
+
+**Nearly 700 visits over 24 hours**, according to the VILNXT team's analytics estimate provided for the Hack4Vilnius 2026 presentation. This is a figure for **visits**, not necessarily unique visitors, signed-up accounts or paid users. Treat this as an early interest signal, not an independently verified audience metric.
+
+The [public project page](index.html#traction) highlights this signal.
+
+## Screenshots and limited public code
+
+This public repository has a styled [showcase page](index.html), built using VILNXT's recognizable visual identity, and a [small React frontend excerpt](showcase/README.md) with a couple of real, presentational UI components alongside explicitly labelled illustrative adaptations.
+
+A [screenshot gallery](screenshots/README.md) is prepared to display authentic VILNXT application screenshots. It currently **does not include** the seven image binaries: only the manifest and gallery loader have been committed. Screenshots will appear on the showcase page when original images are uploaded to `screenshots/`.
+
+**No complete source release:** The real backend, account flows, proprietary integrations, database, application logic and most frontend components remain private. The sample does not access live data and is not the production application.
+
 ## What is VILNXT?
 
 **VILNXT** helps people explore Vilnius's startup ecosystem, discover events, connect with others, and find local business and networking opportunities.
