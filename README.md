@@ -9,19 +9,37 @@
 > **Tai NĖRA pilna VILNXT aplikacija ar jos programinis kodas.** Ši vieša saugykla skirta **Hack4Vilnius 2026 vertinimo komisijai** ir kitiems lankytojams susipažinti su projektu. **Didžioji dalis tikrojo programinio kodo saugoma atskiroje privačioje saugykloje ir čia nėra viešinama.**
 
 
+## Product screenshots / Tikri VILNXT ekrano vaizdai
+
+**These are authentic product screenshots supplied by the VILNXT team, not mockups.** The screenshots below show the interface as captured on 11 October 2026. The live product may change over time.
+
+[**Open VILNXT live ↗**](https://vilnxt.com/) · [**Public showcase gallery ↗**](index.html#screenshots)
+
+### Home / Pagrindinis puslapis
+
+[![VILNXT home screen, showing live site branding and event search](https://d2ol7oe51mr4n9.cloudfront.net/user_3KUjZKx65GqRMDz5AeOkt66K8CC/72d0665d-0451-42f4-93ae-8c1ea120be94.png)](https://vilnxt.com/)
+
+| Events calendar / Renginių kalendorius | Events map / Renginių žemėlapis |
+| :---: | :---: |
+| [![VILNXT events calendar](https://d2ol7oe51mr4n9.cloudfront.net/user_3KUjZKx65GqRMDz5AeOkt66K8CC/22c53219-9089-4470-a29a-b54e167996e1.png)](https://d2ol7oe51mr4n9.cloudfront.net/user_3KUjZKx65GqRMDz5AeOkt66K8CC/22c53219-9089-4470-a29a-b54e167996e1.png) | [![VILNXT event map](https://d2ol7oe51mr4n9.cloudfront.net/user_3KUjZKx65GqRMDz5AeOkt66K8CC/99c3a2e2-c0ee-4036-813d-3703becc9e20.png)](https://d2ol7oe51mr4n9.cloudfront.net/user_3KUjZKx65GqRMDz5AeOkt66K8CC/99c3a2e2-c0ee-4036-813d-3703becc9e20.png) |
+| **Community / Bendruomenė** | **Member profile / Profilis** |
+| [![VILNXT community feed](https://d2ol7oe51mr4n9.cloudfront.net/user_3KUjZKx65GqRMDz5AeOkt66K8CC/ed670b4e-5ac8-41bf-b8be-0254ea72aa71.png)](https://d2ol7oe51mr4n9.cloudfront.net/user_3KUjZKx65GqRMDz5AeOkt66K8CC/ed670b4e-5ac8-41bf-b8be-0254ea72aa71.png) | [![VILNXT member profile](https://d2ol7oe51mr4n9.cloudfront.net/user_3KUjZKx65GqRMDz5AeOkt66K8CC/5f0e366b-2a3e-490b-8a6a-e0e95fd6b8b8.png)](https://d2ol7oe51mr4n9.cloudfront.net/user_3KUjZKx65GqRMDz5AeOkt66K8CC/5f0e366b-2a3e-490b-8a6a-e0e95fd6b8b8.png) |
+| **Pricing / Kainodara** | **24h traffic / Apsilankymų statistika** |
+| [![VILNXT pricing page](https://d2ol7oe51mr4n9.cloudfront.net/user_3KUjZKx65GqRMDz5AeOkt66K8CC/6dcaad17-d4a9-4653-b531-2b2771d3fbbe.png)](https://d2ol7oe51mr4n9.cloudfront.net/user_3KUjZKx65GqRMDz5AeOkt66K8CC/6dcaad17-d4a9-4653-b531-2b2771d3fbbe.png) | [![VILNXT analytics screenshot showing 686 visits](https://d2ol7oe51mr4n9.cloudfront.net/user_3KUjZKx65GqRMDz5AeOkt66K8CC/3f078a44-bd34-4e8e-802a-8dd04dedb643.png)](https://d2ol7oe51mr4n9.cloudfront.net/user_3KUjZKx65GqRMDz5AeOkt66K8CC/3f078a44-bd34-4e8e-802a-8dd04dedb643.png) |
+
 ## Early traction (11 October 2026)
 
-**Nearly 700 visits over 24 hours**, according to the VILNXT team's analytics estimate provided for the Hack4Vilnius 2026 presentation. This is a figure for **visits**, not necessarily unique visitors, signed-up accounts or paid users. Treat this as an early interest signal, not an independently verified audience metric.
+### 686 visits in approximately 24 hours
 
-The [public project page](index.html#traction) highlights this signal.
+The team's screenshot of its traffic dashboard displays **686 visits** during the selected period on 10–11 October 2026, approaching **700 visits in the first day**. Visits are **not** necessarily unique visitors, registrations or paying customers. This is an observational, team-supplied metric, not independently audited.
 
-## Screenshots and limited public code
+## Limited public code
 
-This public repository has a styled [showcase page](index.html), built using VILNXT's recognizable visual identity, and a [small React frontend excerpt](showcase/README.md) with a couple of real, presentational UI components alongside explicitly labelled illustrative adaptations.
+This public repository includes a styled [project showcase page](index.html), a [small React UI excerpt](showcase/README.md), and [screenshot manifest](screenshots/manifest.json).
 
-A [screenshot gallery](screenshots/README.md) is prepared to display authentic VILNXT application screenshots. It currently **does not include** the seven image binaries: only the manifest and gallery loader have been committed. Screenshots will appear on the showcase page when original images are uploaded to `screenshots/`.
+**Core code remains private**: production backend, authentication, private infrastructure, proprietary integrations, database schemas, live event processing and most frontend code are not included.
 
-**No complete source release:** The real backend, account flows, proprietary integrations, database, application logic and most frontend components remain private. The sample does not access live data and is not the production application.
+The images are currently delivered through the project's connected media CDN rather than committed as binary blobs to GitHub, and may be downloaded by anyone viewing this public README.
 
 ## What is VILNXT?
 
