@@ -78,3 +78,13 @@ h1 em{font-style:normal;background:linear-gradient(100deg,#e8baff,#aa82f2);backg
 .shot figcaption{padding:15px;color:#ddcce8;font-size:.78rem;font-weight:700;border-top:1px solid #ffffff17}
 @media(max-width:900px){.tractionMain{grid-template-columns:1fr;gap:20px}.galleryFallback{flex-wrap:wrap}.galleryFallback .btn{margin-left:auto}}
 @media(max-width:630px){.traction{padding-bottom:50px}.tractionMain{padding:24px;border-radius:20px}.tractionMetric{padding:24px}.screenshotsGrid{grid-template-columns:1fr}.galleryFallback{align-items:start}.galleryFallback>img{width:50px}.galleryFallback .btn{margin-left:0}.mediaSection{padding-bottom:54px}}
+
+
+/* Actual screenshots from the live VILNXT application. */
+.heroScreenshot{display:block;width:100%;height:auto;aspect-ratio:1622/968;object-fit:contain;background:#0c0915}
+.windowCaption{display:flex;align-items:center;gap:9px;padding:14px 20px;color:#c9b2da;font:700 .65rem ui-monospace,SFMono-Regular,monospace;letter-spacing:.06em;border-top:1px solid #ffffff19}
+.windowCaption a{color:#eac4ff}
+.metricEvidence{margin-top:22px;display:flex;flex-direction:column;gap:8px;border-radius:13px;border:1px solid #c597ed38;overflow:hidden;background:#fff}
+.metricEvidence img{display:block;width:100%;height:auto;object-fit:contain}
+.metricEvidence span{background:#181020;color:#d9b9ef;padding:9px 13px;font-size:.58rem;font-weight:850;letter-spacing:.08em}
+.galleryFallback[hidden],.demoEvent[hidden]{display:none}
