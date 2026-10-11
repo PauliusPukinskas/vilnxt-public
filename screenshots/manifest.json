@@ -1,4 +1,35 @@
 {
-  "description": "Screenshot gallery will load original files when added. No sample or generated screenshots are shown as real.",
-  "images": []
+  "description": "Authentic VILNXT public product screenshots, provided by the project team on October 11, 2026. Images currently hosted on the user's connected media CDN.",
+  "images": [
+    {
+      "src": "https://d2ol7oe51mr4n9.cloudfront.net/user_3KUjZKx65GqRMDz5AeOkt66K8CC/72d0665d-0451-42f4-93ae-8c1ea120be94.png",
+      "caption": "Pagrindinis puslapis · Home page",
+      "alt": "VILNXT home page with purple branding and event search"
+    },
+    {
+      "src": "https://d2ol7oe51mr4n9.cloudfront.net/user_3KUjZKx65GqRMDz5AeOkt66K8CC/22c53219-9089-4470-a29a-b54e167996e1.png",
+      "caption": "Renginių kalendorius · Calendar",
+      "alt": "VILNXT event calendar for October 2026"
+    },
+    {
+      "src": "https://d2ol7oe51mr4n9.cloudfront.net/user_3KUjZKx65GqRMDz5AeOkt66K8CC/99c3a2e2-c0ee-4036-813d-3703becc9e20.png",
+      "caption": "Renginių žemėlapis · Map",
+      "alt": "VILNXT interactive event map and venue cards"
+    },
+    {
+      "src": "https://d2ol7oe51mr4n9.cloudfront.net/user_3KUjZKx65GqRMDz5AeOkt66K8CC/ed670b4e-5ac8-41bf-b8be-0254ea72aa71.png",
+      "caption": "Bendruomenė · Community",
+      "alt": "VILNXT startup community conversations screen"
+    },
+    {
+      "src": "https://d2ol7oe51mr4n9.cloudfront.net/user_3KUjZKx65GqRMDz5AeOkt66K8CC/5f0e366b-2a3e-490b-8a6a-e0e95fd6b8b8.png",
+      "caption": "Naudotojo profilis · Profile",
+      "alt": "VILNXT profile UI with member details"
+    },
+    {
+      "src": "https://d2ol7oe51mr4n9.cloudfront.net/user_3KUjZKx65GqRMDz5AeOkt66K8CC/6dcaad17-d4a9-4653-b531-2b2771d3fbbe.png",
+      "caption": "Kainodara · Pricing",
+      "alt": "VILNXT pricing page with Lite, Pro and business options"
+    }
+  ]
 }
