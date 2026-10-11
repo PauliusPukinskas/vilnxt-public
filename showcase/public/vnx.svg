@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="90 681 1865 548" fill="none" role="img" aria-labelledby="title">
+<title id="title">VNX monogram</title>
+<defs><linearGradient id="brand" x1="121" y1="900" x2="1930" y2="900" gradientUnits="userSpaceOnUse"><stop stop-color="#d068e7"/><stop offset="0.35" stop-color="#9751b4"/><stop offset="0.68" stop-color="#4d397b"/><stop offset="1" stop-color="#102044"/></linearGradient></defs>
+<path fill="url(#brand)" d="M121 706H432L583 1114 547 1203H302L121 706Z"/>
+<path fill="url(#brand)" d="M476 706H750L606 1057Z"/>
+<path fill="url(#brand)" d="M789 706H1018L1292 1020V1203H1063L789 882Z"/>
+<path fill="url(#brand)" d="M1074 706H1292V959Z"/>
+<path fill="url(#brand)" d="M789 946 1009 1203H789Z"/>
+<path fill="url(#brand)" d="M1330 706H1657L1921 1203H1589Z"/>
+<path fill="url(#brand)" d="M1706 706H1930L1815 916Z"/>
+<path fill="url(#brand)" d="M1437 1003 1542 1203H1328Z"/>
+</svg>
